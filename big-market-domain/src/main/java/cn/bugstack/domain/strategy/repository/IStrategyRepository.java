@@ -1,6 +1,8 @@
 package cn.bugstack.domain.strategy.repository;
 
 import cn.bugstack.domain.strategy.model.entity.StrategyAwardEntity;
+import cn.bugstack.domain.strategy.model.entity.StrategyEntity;
+import cn.bugstack.domain.strategy.model.entity.StrategyRuleEntity;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
@@ -16,9 +18,15 @@ import java.util.List;
 public interface IStrategyRepository {
     List<StrategyAwardEntity> queryStrategyAwardList(Long strategyId);
 
-    void storeStrategyAwardSerchRateTables(Long strategyId, int rateRange, HashMap<Integer, Integer> shufflestrategyAwardSerchRateTables);
+    void storeStrategyAwardSerchRateTables(String key, int rateRange, HashMap<Integer, Integer> shufflestrategyAwardSerchRateTables);
 
     int getRateRange(Long strategyId);
 
-    Integer getStrategyAwardAssemble(Long strategyId, int i);
+    int getRateRange(String key);
+
+    Integer getStrategyAwardAssemble(String key, int i);
+
+    StrategyEntity querystrategyEntityByStrategyId(Long strategyId);
+
+    StrategyRuleEntity queryStrategyRule(Long strategyId, String ruleModel);
 }

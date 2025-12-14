@@ -9,7 +9,7 @@ package cn.bugstack.domain.strategy.service.armory;
 
 public interface IStrategyArmory {
 
-    void assembleLottryStrategy(Long StrategyId);
+    boolean assembleLottryStrategy(Long StrategyId);
 
-    Integer getRandomAwaradId(Long StrategyId);
+
 }
