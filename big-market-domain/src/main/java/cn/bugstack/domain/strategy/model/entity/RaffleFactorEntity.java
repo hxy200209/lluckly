@@ -6,11 +6,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @program: big-market
- * @description: 抽奖参数实体
- * @author: hxy
- * @create: 2025-12-15 22:29
- **/
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description 抽奖因子实体
+ * @create 2024-01-06 09:20
+ */
 @Data
 @Builder
 @AllArgsConstructor
