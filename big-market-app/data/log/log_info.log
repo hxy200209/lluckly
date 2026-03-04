@@ -1,0 +1,394 @@
+25-12-16.00:03:48.871 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 27692 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:03:48.872 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-12-16.00:03:49.493 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:03:49.495 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:03:49.515 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-12-16.00:03:50.583 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:03:54.163 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyArmoryDispatch': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:16379
+25-12-16.00:04:00.472 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 12408 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:04:00.473 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-12-16.00:04:01.101 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:04:01.104 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:04:01.133 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-12-16.00:04:02.057 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:04:02.441 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:04:02.454 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:04:03.839 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:04:03.878 [main            ] INFO  StrategyTest           - Started StrategyTest in 3.767 seconds (JVM running for 4.437)
+25-12-16.00:04:04.422 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:04:04.768 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:04:04.925 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:04:04.931 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:05:18.982 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 27732 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:05:18.984 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-12-16.00:05:19.629 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:05:19.631 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:05:19.653 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+25-12-16.00:05:20.531 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:05:20.919 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:05:20.935 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:05:21.966 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:05:22.004 [main            ] INFO  StrategyTest           - Started StrategyTest in 3.386 seconds (JVM running for 4.073)
+25-12-16.00:05:22.397 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:05:22.636 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:06:09.069 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s810ms420µs).
+25-12-16.00:06:11.364 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@cecf639] to prepare test instance [cn.bugstack.test.domain.StrategyTest@923bf67]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cn.bugstack.test.domain.StrategyTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'strategyArmoryDispatch': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'strategyArmoryDispatch': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 29 common frames omitted
+25-12-16.00:06:11.373 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@cecf639] to prepare test instance [cn.bugstack.test.domain.StrategyTest@1c000c2f]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cn.bugstack.test.domain.StrategyTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'strategyArmoryDispatch': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'strategyArmoryDispatch': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 29 common frames omitted
+25-12-16.00:06:11.379 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@cecf639] to prepare test instance [cn.bugstack.test.domain.StrategyTest@308e465b]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cn.bugstack.test.domain.StrategyTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'strategyArmoryDispatch': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'strategyArmoryDispatch': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 29 common frames omitted
+25-12-16.00:06:11.466 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:06:11.493 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:06:37.400 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 3652 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:06:37.401 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-12-16.00:06:38.476 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:06:38.480 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:06:38.504 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+25-12-16.00:06:39.655 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:06:40.039 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:06:40.061 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:06:41.244 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:06:41.286 [main            ] INFO  StrategyTest           - Started StrategyTest in 4.272 seconds (JVM running for 5.559)
+25-12-16.00:06:41.862 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:06:42.192 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:06:45.665 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:06:45.723 [main            ] INFO  StrategyTest           - 测试结果：101 - 奖品ID值
+25-12-16.00:06:47.147 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:06:47.158 [main            ] INFO  StrategyTest           - 测试结果：101
+25-12-16.00:06:48.533 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:06:49.796 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:06:49.811 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:06:49.818 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:07:59.927 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 28668 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:07:59.928 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-12-16.00:08:00.571 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:08:00.573 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:08:00.590 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-12-16.00:08:01.504 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:08:01.918 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:08:01.931 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:08:02.989 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:08:03.030 [main            ] INFO  StrategyTest           - Started StrategyTest in 3.458 seconds (JVM running for 4.116)
+25-12-16.00:08:05.005 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:08:05.209 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:08:05.268 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:08:05.271 [main            ] INFO  StrategyTest           - 测试结果：101 - 奖品ID值
+25-12-16.00:08:06.685 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:08:06.694 [main            ] INFO  StrategyTest           - 测试结果：101
+25-12-16.00:08:07.978 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:08:09.159 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:08:09.185 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:08:09.191 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:08:41.900 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 2200 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:08:41.901 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-12-16.00:08:42.570 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:08:42.572 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:08:42.592 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-12-16.00:08:43.565 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:08:43.965 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:08:43.980 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:08:45.029 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:08:45.068 [main            ] INFO  StrategyTest           - Started StrategyTest in 3.509 seconds (JVM running for 4.174)
+25-12-16.00:08:45.450 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:08:45.704 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:08:47.434 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:08:47.442 [main            ] INFO  StrategyTest           - 测试结果：101 - 奖品ID值
+25-12-16.00:08:48.839 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:08:48.847 [main            ] INFO  StrategyTest           - 测试结果：101
+25-12-16.00:08:50.094 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:08:51.264 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:08:51.282 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:08:51.310 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:09:07.578 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 15836 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:09:07.579 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-12-16.00:09:08.314 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:09:08.317 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:09:08.340 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+25-12-16.00:09:09.362 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:09:09.745 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:09:09.758 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:09:10.963 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:09:11.014 [main            ] INFO  StrategyTest           - Started StrategyTest in 3.857 seconds (JVM running for 6.804)
+25-12-16.00:09:13.156 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:09:13.437 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:09:13.477 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:09:42.397 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s959ms830µs).
+25-12-16.00:09:42.403 [main            ] INFO  StrategyTest           - 测试结果：101 - 奖品ID值
+25-12-16.00:09:42.498 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:09:42.506 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:09:47.666 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 27432 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:09:47.667 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-12-16.00:09:48.344 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:09:48.346 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:09:48.364 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+25-12-16.00:09:49.284 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:09:49.700 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:09:49.714 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:09:50.814 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:09:50.856 [main            ] INFO  StrategyTest           - Started StrategyTest in 3.563 seconds (JVM running for 4.188)
+25-12-16.00:09:52.843 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:09:53.050 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:09:53.084 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:09:53.087 [main            ] INFO  StrategyTest           - 测试结果：103 - 奖品ID值
+25-12-16.00:09:54.547 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:09:54.555 [main            ] INFO  StrategyTest           - 测试结果：101
+25-12-16.00:09:55.788 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:09:55.790 [main            ] INFO  StrategyTest           - 测试结果：103 - 4000 策略配置
+25-12-16.00:09:55.791 [main            ] INFO  StrategyTest           - 测试结果：105 - 5000 策略配置
+25-12-16.00:09:55.793 [main            ] INFO  StrategyTest           - 测试结果：108 - 6000 策略配置
+25-12-16.00:09:57.024 [main            ] INFO  StrategyTest           - 测试结果：true
+25-12-16.00:09:57.045 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:09:57.051 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:10:55.869 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 14464 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:10:55.870 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-12-16.00:10:56.552 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:10:56.555 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:10:56.591 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-12-16.00:10:57.583 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:10:57.985 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:10:57.999 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:10:59.039 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:10:59.079 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.564 seconds (JVM running for 4.226)
+25-12-16.00:10:59.484 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+25-12-16.00:10:59.558 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:10:59.804 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:10:59.853 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:10:59.856 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:11:53.789 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 2476 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:11:53.790 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-12-16.00:11:54.426 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:11:54.428 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:11:54.452 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+25-12-16.00:11:55.343 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:11:55.737 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:11:55.752 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:11:56.798 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:11:56.841 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.391 seconds (JVM running for 4.005)
+25-12-16.00:11:57.264 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+25-12-16.00:11:57.305 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:11:57.544 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:11:57.571 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:xiaofuge strategyId:100001 ruleModel:rule_weight
+25-12-16.00:11:57.572 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: xiaofuge ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+25-12-16.00:11:57.840 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+25-12-16.00:11:57.842 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103}
+25-12-16.00:11:57.864 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:11:57.869 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:12:10.328 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 28620 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:12:10.329 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-12-16.00:12:10.963 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:12:10.967 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:12:10.998 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-12-16.00:12:11.922 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:12:12.345 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:12:12.361 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:12:13.411 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:12:13.458 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.484 seconds (JVM running for 4.123)
+25-12-16.00:12:13.888 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:user003 strategyId:100001 ruleModel:rule_blacklist
+25-12-16.00:12:13.918 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:12:14.175 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:12:14.211 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:user003 strategyId:100001 ruleModel:rule_weight
+25-12-16.00:12:14.213 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: user003 ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+25-12-16.00:12:14.331 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"user003"}
+25-12-16.00:12:14.334 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103}
+25-12-16.00:12:14.360 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:12:14.406 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:30:27.805 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 23324 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:30:27.806 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-12-16.00:30:28.513 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:30:28.518 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:30:28.550 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+25-12-16.00:30:29.475 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:30:29.873 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:30:29.889 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:30:30.948 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:30:30.985 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.564 seconds (JVM running for 4.243)
+25-12-16.00:30:31.393 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:user003 strategyId:100001 ruleModel:rule_blacklist
+25-12-16.00:30:31.438 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:30:31.707 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:30:31.735 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:user003 strategyId:100001 ruleModel:rule_weight
+25-12-16.00:30:31.737 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: user003 ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+25-12-16.00:30:31.868 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"user003"}
+25-12-16.00:30:31.870 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":104}
+25-12-16.00:30:31.878 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+25-12-16.00:30:31.879 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:xiaofuge strategyId:100001 ruleModel:rule_weight
+25-12-16.00:30:31.880 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: xiaofuge ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+25-12-16.00:30:31.883 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+25-12-16.00:30:31.883 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103}
+25-12-16.00:30:31.904 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:30:31.913 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:40:10.327 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 26040 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:40:10.328 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-12-16.00:40:10.983 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:40:10.991 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:40:11.017 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-12-16.00:40:11.965 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:40:12.371 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:40:12.390 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:40:13.456 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:40:13.496 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.548 seconds (JVM running for 4.239)
+25-12-16.00:40:13.914 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:user003 strategyId:100001 ruleModel:rule_blacklist
+25-12-16.00:40:13.981 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:40:14.260 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:40:14.284 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:user003 strategyId:100001 ruleModel:rule_weight
+25-12-16.00:40:14.286 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: user003 ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+25-12-16.00:40:14.449 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"user003"}
+25-12-16.00:40:14.453 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":104}
+25-12-16.00:40:14.472 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+25-12-16.00:40:14.474 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:xiaofuge strategyId:100001 ruleModel:rule_weight
+25-12-16.00:40:14.475 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: xiaofuge ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+25-12-16.00:40:14.478 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+25-12-16.00:40:14.478 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":104}
+25-12-16.00:40:14.497 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:40:14.504 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-12-16.00:53:54.553 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 17.0.12 on DESKTOP-8T0P329 with PID 8144 (started by 1 in F:\web_kaifa\big-market\xfg\big-market\big-market-app)
+25-12-16.00:53:54.554 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-12-16.00:53:55.608 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-16.00:53:55.612 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-16.00:53:55.661 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+25-12-16.00:53:56.706 [main            ] INFO  Version                - Redisson 3.23.4
+25-12-16.00:53:57.183 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:53:57.197 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-12-16.00:53:58.472 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-12-16.00:53:58.517 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 4.322 seconds (JVM running for 5.233)
+25-12-16.00:53:59.042 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+25-12-16.00:53:59.082 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-12-16.00:53:59.418 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-12-16.00:53:59.444 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:xiaofuge strategyId:100001 ruleModel:rule_weight
+25-12-16.00:53:59.446 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: xiaofuge ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+25-12-16.00:53:59.690 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+25-12-16.00:53:59.693 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103}
+25-12-16.00:53:59.719 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-12-16.00:53:59.726 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
